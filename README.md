@@ -2,7 +2,7 @@
 
 A plugin script that uses Oncology Services and Eclipse Scripting APIs to upload a PDF file into Aria.
 
-An Oncology Services API key is available at my.varian.com.  The API key must be uploaded into the Varian Service Portal.  If running on a test box, Aria must have the Oncology Services package installed (must be able to access Documents workspace).  Must also edit the app.config file values to be site specific (e.g. rename hostName to "tbox15", port to "55051", enter docKey value, and importDir to "\\\tbox15\va_data$\PDFTemp").  The placement of the commas is important.
+An Oncology Services API key is available at my.varian.com.  The API key must be uploaded into the Varian Service Portal.  If running on a test box, Aria must have the Oncology Services package installed (must be able to access Documents workspace).  Must also edit the app.config file values to be site specific (e.g. rename hostName to "tbox15", port to "55051", enter docKey value, and importDir to "\\\tbox15\va_data$\PDFTemp").  Keep the comma placement to help with the regex match.
 
 Works with multiple pdf files and will combine them before uploading.
 
